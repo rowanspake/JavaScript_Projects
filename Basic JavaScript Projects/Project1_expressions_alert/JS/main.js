@@ -20,5 +20,10 @@ document.write(a); //Writes "1"
 
 3+4; //An expressions with no observable result
 
+
 var Sent1 = "This is the beginning the string", Sent2 = " and this is the end of the string"; //Assigns two strings to two variables
 document.write(Sent1 + Sent2); //Concatenates and writes the two previously assigned variables
+
+function displayDate() {
+    document.getElementById("partyTime").innerHTML = "Right now!"
+}
