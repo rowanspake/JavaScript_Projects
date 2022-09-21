@@ -44,7 +44,7 @@ function Time_function() {  //Time_function() exercise
     if (Time < 12 == Time > 0) {  
         Reply = "It is morning time!";
     }
-    else if (Time >= 12 == Time < 18){  //else if function
+    else if (Time >= 12 == Time < 18){  //else if method
         Reply = "It is afternoon."
     }
     else {
