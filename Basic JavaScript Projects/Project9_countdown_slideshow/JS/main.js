@@ -1,14 +1,14 @@
-function countdown () {
-    var seconds = document.getElementById("seconds").value;
+function countdown () {     //Countdown function
+    var seconds = document.getElementById("seconds").value; //Sets the value of var seconds to the value of the input
 
-    function tick() {
-        seconds = seconds - 1;
-        timer.innerHTML = seconds;
-        var time = setTimeout(tick, 1000);
-        if (seconds == -1) {
-            alert("Time's up!");
-            clearTimeout(time);
-            timer.innerHTML = "";
+    function tick() {   //This function counts us down from the input value
+        seconds = seconds - 1; //Starts the count from one less than the input
+        timer.innerHTML = seconds; //Displays the output; this is where the countdown is displayed
+        var time = setTimeout(tick, 1000); //Calls the tick function after 1 second
+        if (seconds == -1) {  //Conditional statement that executes when the countdown passes zero
+            alert("Time's up!"); //Displays an alert window
+            clearTimeout(time); //Clears the timeout
+            timer.innerHTML = ""; //Resets the timer
         }
     }
     tick();
