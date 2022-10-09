@@ -1,0 +1,83 @@
+    #menuBG {
+        width:640px;
+        height:470px;
+        margin:10px auto;
+    }
+
+    #frmMenu {
+        
+        margin:15px auto auto auto;
+        width:640px;
+        height:200px;
+        border:medium solid red;
+        border-radius:10px;
+        padding:10px;
+    }
+
+    #totalPrice {
+        width:200px;
+        height:190px;
+        margin:0 auto;
+        float:right;
+    }
+
+    .left {
+        width:200px;
+        height:200px;
+        float:left;
+        margin:auto auto auto 40px;
+        
+       
+    }
+
+    .right {
+        width:200px;
+        height:200px;
+        float:right;
+        margin:auto -20px auto auto;
+    }
+
+    .center {
+        width:200px;
+        height:200px;
+        float:left;
+    } 
+
+    #showText {
+        width:200px;
+        height:190px;
+        margin:0px auto;
+        float:left;
+    }
+
+    #cart {
+        top:0;
+        margin:0px auto;
+        width:400px;
+        height:200px;
+    }
+
+    #btnOrder {
+        margin:10px auto auto 250px;
+        width:100px;
+        height:40px;
+    }
+
+    body {
+        background-color:rgb(255, 251, 120);
+    }
+
+    h1 {
+        font-family:Arial, Helvetica, sans-serif;
+        color:maroon;
+    }
+
+    h3 {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color:brown;
+    }
+
+    div {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color:darkslategray;
+    }
