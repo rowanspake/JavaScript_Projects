@@ -56,3 +56,37 @@ function getTopping(runningTotal,text1) {
     document.getElementById("totalPrice").innerHTML = "<h3>Total: <strong>$"+runningTotal+".00"+"</strong></h3>";   //Displays the total cost
 };
 
+function validateForm() {
+    let x = document.forms["contactForm"]["phoneNumber"].value;
+    if (x == "") {
+        alert("Don't forget your phone number!");
+        return false;
+    }
+};
+
+function openForm() {
+    document.getElementById("dealsForm").style.display = "block";
+  }
+  
+function closeForm() {
+    document.getElementById("dealsForm").style.display = "none";
+};
+
+function openStickyForm() {
+    document.getElementById("contactPopup").style.display = "block";
+}
+
+function closeStickyForm() {
+    document.getElementById("contactPopup").style.display = "none";
+}
+
+$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() {
+    $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+}, 3000);
