@@ -4,20 +4,20 @@
 
 ## Projects
 * AJAX
-    A simple AJAX request exercise
+    > A simple AJAX request exercise
 * Basic JavaScript Projects
     - Calculator
-        A calulator web app
+        > A calulator web app
     - Misc
-        Various JS exercises
+        > Various JS exercises
     - Pizza Project
-        A pizza parlor ordering site mockup
+        > A pizza parlor ordering site mockup
     - TicTacToe
-        A customized TicTacToe game
+        > A customized TicTacToe game
 * jQuery
-    A simple jQuery exercise
+    > A simple jQuery exercise
 * React
-    Several React exercises
+    > Several React exercises
 * todo_app
-    A to-do list web app
+    > A to-do list web app
 
