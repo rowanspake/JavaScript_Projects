@@ -4,7 +4,7 @@
 
 ## Projects
 * AJAX
-    > A simple AJAX request exercise
+    * A simple AJAX request exercise
 * Basic JavaScript Projects
     * Calculator
         - A calulator web app
